@@ -157,8 +157,10 @@ jobs:
       env:
         OPENWRT_ARMVIRT: openwrt/bin/targets/*/*/*.tar.gz
         PACKAGE_SOC: s905d_vplus
-        WHOAMI: jack@archlinux
-        KERNEL_REPO_URL: https://github.com/breakings/OpenWrt/trunk/opt/kernel
+        # WHOAMI: jack@archlinux
+        WHOAMI: OpenGALA
+        # KERNEL_REPO_URL: https://github.com/breakings/OpenWrt/trunk/opt/kernel
+        KERNEL_REPO_URL: https://github.com/breakings/OpenWrt/releases/tag/kernel_stable
         KERNEL_VERSION_NAME: 5.4.136_5.13.6
         KERNEL_AUTO_LATEST: true
         #OPENWRT_VER: R21.7.26
