@@ -71,7 +71,7 @@ jobs:
         OPENWRT_ARMVIRT: https://github.com/Godbyre/OpenGALA/releases/download/openwrt_armvirt/openwrt-armsr-armv8-generic-rootfs.tar.gz
         PACKAGE_SOC: panther-x2
         WHOAMI: OpenGALA
-        KERNEL_REPO_URL: https://github.com/Godbyre/OpenGALA/releases/download/Amlogic_Allwinner_Rockchip
+        KERNEL_REPO_URL: https://github.com/Godbyre/OpenGALA/releases/tag/kernel_stable
         KERNEL_VERSION_NAME: 6.1.1_6.6.1_6.12.1
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         OPENWRT_VER: R25.5.25
